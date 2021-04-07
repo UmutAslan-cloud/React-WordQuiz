@@ -18,6 +18,8 @@ export default function Question() {
             setMinus(minus + 1)
             } if (count>=10) {
                 setCount(0)
+                setPlus(0)
+                setMinus(0)
             }
 
     }
