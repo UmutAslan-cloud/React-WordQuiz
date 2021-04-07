@@ -1,0 +1,36 @@
+.Options {
+    margin: 10px;
+    background-color: sandybrown;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: 'Londrina Solid', cursive;
+
+}
+#test {
+    font-size: 15px;
+    border: 1px solid black;
+    width: 5vw;
+    margin-left: 600px;
+    background-color: salmon;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    font-family: 'Londrina Solid', cursive;
+}
+#detail {
+    border: 1px solid black;
+    width: 5vw;
+    margin-left: 750px;
+    padding: 5px;
+    background-color: rgb(167, 167, 32);
+    color: white;
+    font-family: 'Londrina Solid', cursive;
+}
+#next-question {
+width: 4vw;
+background-color: rgb(70, 70, 204);
+color: white;
+border-radius: 5px;
+font-family: 'Londrina Solid', cursive;
+font-size: 18px;
+}

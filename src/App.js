@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+/**
+ * Bu odevimizde bizden bir kelime oyunu yapmamiz isteniyor.
+ * Kelime oyununda Almanca verilen kelimenin ingilizce karsiliklari karisik olarak verilicek
+ * Verilen kelimelerden bir tanesi Almanca kelimenin dogru karsiligi olucak
+ * Bir next butonu ile sonraki soruya gecilicek 
+ * Cevaplar dogru ise true kismi yanlis ise false kismi skorlandirmayi gerceklestiricek
+ * 
+ * Technical Details
+ * Oncelikle bir soru arrayi olustruacagiz
+ * bu soru arrayinda sorunun kendisi siklar ve cevap olacak
+ * olusturdugumuz sayfamizda bir next butonu ve question kismi olucak
+ * State olarak olsturdugmuz count degiskeni bize hem bulundugumuz soru sayisini gosteren Question bolumunu
+ * Hem Next dugmesine basinca bir sonraki soruya gecme asamasinda bize yardimci olacak.
+ * State olarak olusturdugumuz plus minus degiskenleri ise bizlere dogru ve yanlis soru kisminda yardimci olacak
+ */
 import './App.css';
+import HeaderComp from "./components/Header"
+import Question from "./components/Question"
+
+
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <HeaderComp/>
+    <Question/>
+     
     </div>
   );
 }

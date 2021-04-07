@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  width: 100vw;
+  height: 55vh;
+  background: url("https://thestorytellers.biz/wp-content/uploads/2020/09/Vocabluary-words-language-feat.jpg");
+ 
+
+}

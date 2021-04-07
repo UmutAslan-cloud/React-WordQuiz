@@ -1,0 +1,9 @@
+header {
+    font-family: 'Londrina Solid', cursive;
+    border:1px solid black;
+    border-radius: 8px;
+    width: 20vw;
+    margin-left: 40vw;
+    margin-bottom: 15px;
+    background-color: rgb(130, 213, 216);
+}
