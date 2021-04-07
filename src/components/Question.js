@@ -16,7 +16,9 @@ export default function Question() {
         } else {
             setCount(count + 1)
             setMinus(minus + 1)
-        }
+            } if (count>=10) {
+                setCount(0)
+            }
 
     }
 
